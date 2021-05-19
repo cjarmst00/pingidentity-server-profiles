@@ -19,9 +19,6 @@
             logical_addr_cache_expiration="1000"
             logical_addr_cache_reaper_interval="10000"
 
-	<!--
-            bind_addr="${pf.cluster.bind.address}"
-	-->
             bind_addr="0.0.0.0"
             log_discard_msgs="false"/>
 	<!--
