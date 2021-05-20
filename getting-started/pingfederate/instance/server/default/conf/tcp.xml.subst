@@ -20,7 +20,6 @@
             logical_addr_cache_reaper_interval="10000"
 
             bind_addr="127.0.0.1"
-	    external_addr="${EXTERNAL_ADDR}"
             log_discard_msgs="false"/>
 	
     <dns.DNS_PING
