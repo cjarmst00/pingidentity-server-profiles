@@ -19,7 +19,7 @@
             logical_addr_cache_expiration="1000"
             logical_addr_cache_reaper_interval="10000"
 
-            bind_addr="LOOPBACK"
+            bind_addr="127.0.0.1"
             log_discard_msgs="false"/>
 	<!--
    <TCPPING initial_hosts="${pf.cluster.tcp.discovery.initial.hosts}"
